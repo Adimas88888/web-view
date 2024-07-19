@@ -1,0 +1,88 @@
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 100;
+}
+
+/* Button Location */
+.btn-location {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-location:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Bright Logo */
+.logo-bright {
+  filter: brightness(1.8); /* Adjust the value as needed */
+}
+
+/* Large Logo */
+.logo-large {
+  width: 150px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  height: auto; /* Menjaga aspek ratio */
+}
+
+/* Custom Div */
+.your-custom-div {
+  margin-left: -10px; /* Atur nilai sesuai kebutuhan */
+}
+
+/* Header Image */
+.header_section .header_top img {
+  width: 130px; /* Ubah nilai ini sesuai dengan ukuran yang diinginkan */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+/* Carousel Detail Box */
+.slider_section .carousel-inner .carousel-item .detail-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+  border-radius: 15px; /* Optional: Add rounded corners */
+  padding: 20px; /* Optional: Add padding */
+  background: rgba(255, 255, 255, 0.8); /* Optional: Add background for better visibility */
+}
+
+/* Navbar Navigation */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Service Section Text Justify */
+.service_section .detail-box p {
+  text-align: justify;
+}
+
+/* Carousel Text Size */
+.carousel-text {
+  color: rgb(238, 231, 231);
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+@media (max-width: 768px) {
+  .carousel-text {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-text {
+    font-size: 2em;
+  }
+}
+

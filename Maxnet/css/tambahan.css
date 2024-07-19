@@ -1,0 +1,147 @@
+
+    .icon-box-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .icon-box {
+      text-align: center;
+      width: 100%;
+      max-width: 300px;
+      /* Atur lebar maksimum sesuai kebutuhan */
+    }
+
+    .custom-img {
+      width: 220%;
+      /* Set width to 100% to span from left to right */
+      height: auto;
+      /* Maintain aspect ratio */
+      float: none;
+      /* Remove float to center the image horizontally */
+      margin-right: 0;
+      /* Remove any right margin */
+    }
+
+    .custom-img {
+      width: 100%;
+      /* Set width to 100% to span from left to right */
+      height: auto;
+      /* Maintain aspect ratio */
+      display: block;
+      /* Make sure the image is a block element */
+      margin: 0 auto;
+      /* Center the image horizontally */
+    }
+
+    .logo-small {
+      width: 180px;
+      /* Atur ukuran sesuai kebutuhan */
+      height: auto;
+      /* Mempertahankan rasio aspek gambar */
+    }
+
+    .logo-bright {
+      filter: brightness(1.3);
+      /* Atur nilai brightness sesuai kebutuhan */
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      /* Jarak dari bawah */
+      right: 20px;
+      /* Jarak dari kanan */
+      z-index: 999;
+      /* Menentukan tingkat tumpukan */
+    }
+
+    .back-to-top.btn-primary {
+      background-color: #1c0099;
+      /* Warna latar belakang */
+      border-color: #1c0099;
+      /* Warna border jika diperlukan */
+    }
+
+    .back-to-top.btn-primary:hover {
+      background-color: #0f004c;
+      /* Warna hover tombol */
+      border-color: #0f004c;
+      /* Warna border hover */
+    }
+
+    @media (max-width: 768px) {
+      .section-content iframe {
+        width: 100%;
+        height: 250px;
+        /* Sesuaikan tinggi iframe sesuai kebutuhan Anda */
+      }
+    }
+
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      /* Jarak antar ikon */
+    }
+
+    .contact-icons a {
+      color: white;
+      /* Sesuaikan warna ikon */
+      font-size: 2em;
+      /* Ukuran ikon */
+      text-decoration: none;
+      /* Hapus garis bawah pada tautan */
+    }
+
+    .contact-icons a:hover {
+      color: #ffcc00;
+      /* Warna saat ikon di-hover, sesuaikan dengan desain Anda */
+    }
+
+    .banner-text {
+      color: #f90;
+      text-align: center;
+      font-weight: bold;
+      font-size: 5em;
+      margin-top: 0.8em;
+    }
+
+    .banner-button {
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      font-size: 1em;
+      cursor: pointer;
+      margin: 0.5em;
+    }
+
+    .primary-button {
+      background-color: #f90;
+    }
+
+    .secondary-button {
+      background-color: #1c0099;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    @media (max-width: 768px) {
+      .banner-text {
+        font-size: 4em;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .banner-text {
+        font-size: 3em;
+      }
+
+      .banner-button {
+        padding: 0.8em 1.5em;
+        font-size: 0.9em;
+      }
+    }
+  
